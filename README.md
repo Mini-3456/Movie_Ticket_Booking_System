@@ -53,5 +53,7 @@ The application manages two primary entities. Hibernate handles the creation of 
   
 ## 🏗️ Design Patterns & Architecture
  **Singleton Pattern**: Implemented in `HibernateUtil` to ensure a single `SessionFactory` instance, optimizing resource utilization.
+ 
  **Data Access Logic**: Separated business logic from data persistence, demonstrating a clean, maintainable architecture.
+ 
  **Object-Relational Mapping (ORM)**: Leveraged JPA annotations to bridge the gap between Java's object-oriented model and MySQL's relational model.
