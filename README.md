@@ -5,11 +5,16 @@ standard Session methods, Hibernate Query Language (HQL), and Native SQL.
 
 ## 🚀 Key Features
   **Entity Mapping**: Uses Jakarta Persistence (JPA) annotations for mapping Java objects to MySQL tables.
+  
   **Automatic Schema Generation**: Leverages Hibernate's `hbm2ddl` to generate table structures automatically.
+  
   **Multiple Querying Techniques**:
-      **Standard CRUD**: Basic persistence operations using `persist()`, `merge()`, and `remove()`.
-      **HQL (Hibernate Query Language)**: Object-oriented queries including aggregations (`max`, `avg`) and sorting.
-      **Native SQL**: Direct database communication for complex operations like `JOIN` queries.
+  
+   **Standard CRUD**: Basic persistence operations using `persist()`, `merge()`, and `remove()`.
+      
+   **HQL (Hibernate Query Language)**: Object-oriented queries including aggregations (`max`, `avg`) and sorting.
+      
+   **Native SQL**: Direct database communication for complex operations like `JOIN` queries.
 
 ## 🛠️ Project Structure
 The project is organized into clear packages following industry standards:
