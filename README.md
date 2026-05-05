@@ -42,9 +42,13 @@ The application manages two primary entities. Hibernate handles the creation of 
 
 ## 💻 Tech Stack
   **Language**: Java(JDK 22)
+  
   **Framework**: Hibernate(7.0.8.Final)
+  
   **Database**: MySQL
+  
   **Build Tool**: Maven
+  
   **IDE**: Eclipse
   
 ## 🏗️ Design Patterns & Architecture
